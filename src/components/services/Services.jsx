@@ -42,13 +42,14 @@ const Services = () => {
 
   return (
     <motion.div
-      className="services"
-      variants={variants}
-      initial="initial"
-      // animate="animate"
-      // whileInView="animate"
-      ref={ref}
-      animate={isInView && "animate"}
+        id="services"
+        className="services"
+        variants={variants}
+        initial="initial"
+        // animate="animate"
+        // whileInView="animate"
+        ref={ref}
+        animate={isInView && "animate"}
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
