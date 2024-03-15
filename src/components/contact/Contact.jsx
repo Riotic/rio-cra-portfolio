@@ -64,8 +64,14 @@ const Contact = () => {
 
         <motion.div className="item" variants={variants}>
           <h2>Téléphone relation entreprise ETNA</h2>
-          <span>+33 (0)1 44 08 00 25</span>
+          <span>+33 (0)1 44 08 00 23</span>
         </motion.div>
+        <motion.div className="item" variants={variants}>
+          <a href="/Clement_Rio_etna_2024-01-17_CV.pdf" download>
+            <button>Télécharger mon CV</button>
+          </a>
+        </motion.div>
+
       </motion.div>
       <div className="formContainer">
         <motion.div
