@@ -53,7 +53,7 @@ jobs:
 #        env:
 #          MY_ENV_VAR: value-for-my-env-var
 #          MY_SECRET_ENV_VAR: ${{ secrets.MY_SECRET }} # here you can find information how to create secrets: https://docs.github.com/en/actions/security-guides/encrypted-secrets
-        run: pm2 start npm --name "rio portfolio" --start
+        run: pm2 start npm --name "rio portfolio" -- start
 
 # Please do not touch the following action
       - name: Store deployment content
