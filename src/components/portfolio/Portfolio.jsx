@@ -12,9 +12,9 @@ const items = [
   },
   {
     id: 2,
-    title: "BddCompare/EzAdmin",
+    title: "EzAdmin",
     img: "/bddCompare.png",
-    desc: "Site web réalisé en next.js et un systéme complexe maitrisé avec du mongoDB et du postgresql. Il permet de simplifier la comparaison de base de données pour un utilisateur et retourner des fichiers de comparaisons de données entre deux versions différentes de la même application",
+    desc: "BddCompare/EzAdmin est un site web réalisé en next.js avec un systéme complexe maitrisé fonctionnant avec du mongoDB et du postgresql. Il permet de simplifier la comparaison de base de données pour un utilisateur.",
     github: "https://github.com/Riotic/ProjetPRO-CDA2",
   },
   {

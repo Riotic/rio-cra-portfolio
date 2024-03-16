@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
@@ -19,10 +19,17 @@ const variants = {
 };
 
 const Contact = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 738);
   const ref = useRef();
   const formRef = useRef();
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      setIsMobile(window.innerWidth < 768);
+    });
+  }, []);
 
   const isInView = useInView(ref, { margin: "-100px" });
 
@@ -112,7 +119,7 @@ const Contact = () => {
         >
           <input type="text" required placeholder="Votre nom" name="name"/>
           <input type="email" required placeholder="Votre email" name="email"/>
-          <textarea rows={8} placeholder="Message" name="message"/>
+          <textarea rows={isMobile ? 3 : 8} placeholder="Message" name="message"/>
           <button>Submit</button>
           {error && "Error"}
           {success && "Success"}
