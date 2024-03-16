@@ -119,7 +119,7 @@ const Contact = () => {
         >
           <input type="text" required placeholder="Votre nom" name="name"/>
           <input type="email" required placeholder="Votre email" name="email"/>
-          <textarea rows={isMobile ? 3 : 8} placeholder="Message" name="message"/>
+          <textarea rows={isMobile ? 1 : 8} placeholder="Message" name="message"/>
           <button>Submit</button>
           {error && "Error"}
           {success && "Success"}
