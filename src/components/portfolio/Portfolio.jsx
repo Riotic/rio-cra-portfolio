@@ -53,7 +53,7 @@ const Single = ({ item }) => {
               <h2>{item.title}</h2>
               <p>{item.desc}</p>
               {item.github === "none" ? (
-                <button disabled>On Hold</button>
+                <button disabled>En cours...</button>
               ) : (
                 <button onClick={() => window.location.href = item.github}>Regarder sur Github</button>
               )}
