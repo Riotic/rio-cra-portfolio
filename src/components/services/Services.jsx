@@ -77,7 +77,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Conception graphique & webdesign</h2>
+          <h2 className="servicesTitle">Conception graphique & webdesign</h2>
           <p>
                 L&apos;un de mes objectifs principaux est de vous aider à trouver un design qui vous correspond.
                 Je fais régulierement des veilles via le site awwwards et behance pour vous proposer des designs modernes et innovants.
@@ -88,7 +88,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Gestion de projets web</h2>
+          <h2 className="servicesTitle">Gestion de projets web</h2>
           <p>
                 Je peux vous aider à gérer vos projets web en utilisant des outils comme Gitflow, figma ou github.
           </p>
@@ -98,7 +98,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Développements spécifiques</h2>
+          <h2 className="servicesTitle">Développements spécifiques</h2>
           <p>
                 Je dispose des compétences pour développer des sites web, des applications web et des applications mobiles adaptés à votre coeur de métier. 
           </p>
@@ -108,7 +108,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Interfaces d&apos;administration</h2>
+          <h2 className="servicesTitle">Interfaces d&apos;administration</h2>
           <p>
                 Je peux vous aider à développer des interfaces d&apos;administration qui aideront à la sécurité et la gestion de vos données/applications.
           </p>
