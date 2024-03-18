@@ -120,7 +120,7 @@ const Contact = () => {
           <input type="text" required placeholder="Votre nom" name="name"/>
           <input type="email" required placeholder="Votre email" name="email"/>
           <textarea rows={isMobile ? 1 : 8} placeholder="Message" name="message"/>
-          <button>Submit</button>
+          <button>Envoyer</button>
           {error && "Error"}
           {success && "Success"}
         </motion.form>
